@@ -1,0 +1,6 @@
+[unit]
+Description=app
+[Service]
+ExecStart=/home/usef/project/logger/build/app
+[Install]
+WantedBy=multi-user.target

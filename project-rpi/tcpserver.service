@@ -1,0 +1,13 @@
+[Unit]
+Description=TCP Server Service
+
+[Service]
+ExecStart=/home/youssef/project/TCPSERVER
+Restart=always
+User=youssef
+RestartSec=3
+StartLimitIntervalSec=60
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
